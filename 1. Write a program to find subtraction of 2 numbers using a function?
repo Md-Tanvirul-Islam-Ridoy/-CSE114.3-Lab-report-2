@@ -1,0 +1,12 @@
+#include <stdio.h> 
+int subtract(int x,int y){ 
+    int result=x-y; 
+    return result;} 
+int main(){ 
+    int a,b; 
+    scanf("%d%d",&a,&b); 
+    int diff=subtract(a,b); 
+    printf("Difference=%d\n",diff); 
+    printf("Difference=%d\n",subtract(20,8)); 
+    return 0; 
+} 
