@@ -1,0 +1,14 @@
+#include <stdio.h> 
+int get_remainder(int x, int y) { 
+    int result = x % y; 
+    return result; 
+} 
+int main() { 
+    int a, b; 
+    scanf("%d%d", &a, &b); 
+    int rem = get_remainder(a, b); 
+    printf("Remainder=%d\n", rem); 
+    printf("Remainder=%d\n", get_remainder(27, 5)); 
+    return 0; 
+} 
+
