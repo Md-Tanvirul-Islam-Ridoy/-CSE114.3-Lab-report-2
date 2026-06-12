@@ -1,0 +1,13 @@
+#include <stdio.h> 
+int find_max(int x, int y) { 
+    int result = (x > y) ? x : y; 
+    return result; 
+} 
+int main() { 
+    int a, b; 
+    scanf("%d%d", &a, &b); 
+    int max_val = find_max(a, b); 
+    printf("Maximum=%d\n", max_val); 
+    printf("Maximum=%d\n", find_max(45, 89)); 
+    return 0; 
+}
