@@ -1,0 +1,13 @@
+#include <stdio.h> 
+int average(int x, int y) { 
+    int result = (x + y) / 2; 
+    return result; 
+} 
+int main() { 
+    int a, b; 
+    scanf("%d%d", &a, &b); 
+    int avg = average(a, b); 
+    printf("Average=%d\n", avg); 
+    printf("Average=%d\n", average(30, 70)); 
+    return 0; 
+} 
