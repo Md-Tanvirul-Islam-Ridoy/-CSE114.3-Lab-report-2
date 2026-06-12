@@ -1,0 +1,13 @@
+#include <stdio.h> 
+int hours_to_mins(int hours) { 
+    int result = hours * 60; 
+    return result; 
+} 
+int main() { 
+    int a; 
+    scanf("%d", &a);  
+    int ans = hours_to_mins(a); 
+    printf("Minutes=%d\n", ans); 
+    printf("Minutes=%d\n", hours_to_mins(2)); 
+    return 0; 
+}
